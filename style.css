@@ -1,0 +1,273 @@
+.bodymain {
+    background-color:#00aaff ;
+  }
+.heading{
+    font-size: 300px;
+    font-family: "Chango", serif;
+    font-weight: 4000;
+    font-style: normal;
+}
+.aa{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 50px;  
+}
+.para{
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+.logo{
+    margin-bottom: 50px;
+}
+.para{
+    margin-bottom: 50px;
+}
+.custom-navbar {
+    background-color: #e2d410;
+    color: #ffffff; 
+}
+.logoss{
+margin-right: 10px;
+margin-left: 870px;
+}
+.card-text-car{
+    background-color: #e2d410   ;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
+}
+.footer-column {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+.footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-column ul li a:hover {
+    color: #00aaff;
+}
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+.footer-social a:hover {
+    transform: scale(1.2);
+}
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-column {
+        margin-bottom: 20px;
+        
+    }
+}
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.card-title{
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.price{
+    font-size: 30px;
+    font-family:"Charm", cursive;
+    font-weight: 4000;
+    font-style: normal;
+}
+.card-bodyy{
+    background-color:#e2d410   ;
+}
+.btn1{
+    background-color:#00aaff ;
+}
+.modal-body{
+    background-color: #00aaff;
+}
+.modal-footer{
+    background-color: #e2d410;
+}
+.modal-header{
+    background-color: #e2d410;
+}
+.par{
+font-family: Arial, Helvetica, sans-serif;
+}
+.order-img{
+height: 100px;
+width: 100px;
+}
+.footer-top-a{
+    background-color: #e2d410;
+}
+.me-5{
+    background-color: black;
+}
+.order-imgg{
+    height: 600px;
+    margin-left: 100pxpx;
+    margin-top: 10px;
+    align-content: flex-end;
+}
+.form-group{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details{
+    margin-left: 100px;
+}
+
+.container11{
+    margin-top: 100px;
+    background-color: #e2d410;
+    padding: 10px;
+    margin: 20px;
+    margin-block-start: 100px;
+    width: 500px;
+}
+.details2{
+ margin-left: 105px;   
+}
+.details3{
+    margin-left: 85px;
+}
+.details4{
+    margin-left: 90px;
+}
+.details5{
+    margin-left: 130px;
+}
+.details6{
+    margin-left: 150px;
+}
+.container12{
+    background-color: #00aaff;
+    
+}
+.newlabel{
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.newpara{
+    font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.accordion{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;   
+}
+.accordion-button{
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.accordion-body{
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.headingnew{
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+}
+.subheadingnew{
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* --- Responsive Layout --- */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .container, .content, .main, .section {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo, .banner, .feature, .card {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 1.2em;
+    }
+
+    nav ul li {
+        font-size: 14px;
+    }
+}
